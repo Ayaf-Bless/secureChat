@@ -2,6 +2,8 @@
 
 A small Electron app that simulates a secure messenger client with local SQLite storage, a WebSocket sync simulator, and a virtualized chat list.
 
+![App Demo](app-demo.gif)
+
 ## Setup & Run
 
 ```bash
