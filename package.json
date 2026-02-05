@@ -1,0 +1,38 @@
+{
+  "name": "secure-messenger-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "main": "out/main/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "lint": "echo 'no lint configured'"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.3",
+    "better-sqlite3": "^9.4.5",
+    "bufferutil": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.2",
+    "react-window": "^1.8.10",
+    "utf-8-validate": "^6.0.6",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.9",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "@types/react-window": "^1.8.8",
+    "@types/ws": "^8.5.10",
+    "@vitejs/plugin-react": "^4.2.1",
+    "electron": "^29.3.0",
+    "electron-rebuild": "^3.2.9",
+    "electron-vite": "^2.0.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.8"
+  }
+}
